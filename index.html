@@ -1,88 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>gavz Apps</title>
-<style>
-  /* Minimal modern CSS */
-  body {
-    font-family: "Segoe UI", Roboto, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f5f5f5;
-    color: #333;
-  }
-  header {
-    background: #4CAF50;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  main {
-    max-width: 600px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  }
-  h1, h2 {
-    margin-top: 0;
-  }
-  ul {
-    padding-left: 1.2rem;
-  }
-  a {
-    color: #4CAF50;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  footer {
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: #666;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>gavz — Independent Mac apps</title>
+  <meta name="description" content="Native Mac apps by Gavin Matthews. Discover Orbit: Pixel Inspector and BlackBox: Audio Edition.">
+  <link rel="canonical" href="https://gavz.app/">
+  <meta property="og:title" content="gavz — Independent Mac apps">
+  <meta property="og:description" content="Native Mac apps by Gavin Matthews. Discover Orbit: Pixel Inspector and BlackBox: Audio Edition.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gavz.app/">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-
-<header>
-  <h1>gavz Apps</h1>
-</header>
-
-<main>
-  <section>
-    <h2>Apps</h2>
-    <ul>
-      <li><a href="https://play.google.com/store/apps/details?id=app.ilia.mcdroid.pro">McDroid for Android</a> (<a href="https://apps.apple.com/es/app/mcdroid/id1488201769?l=en-GB&mt=12">client for macOS</a>)</li>
-      <li><a href="https://apps.apple.com/app/let-it-snow/id483124549">Let It Snow (macOS)</a></li>
-      <li><a href="https://apps.apple.com/app/file-rename-pro/id473527788">File Rename Pro (macOS)</a></li>
-      <li><a href="https://apps.apple.com/app/image-bucket-pro/id451406712">PhotoBatcher Pro - formerly Image Bucket Pro (macOS)</a></li>
-      <li><a href="https://apps.apple.com/app/photomatik-pro/id6451209145">Photomatik Pro (macOS)</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Support</h2>
-    <p>We offer support by email: <a href="mailto:support@gavz.app">support@gavz.app</a></p>
-  </section>
-
-  <section>
-    <h2>Privacy Policy</h2>
-    <p>Your privacy is important to us. This policy applies to both this website and our apps.</p>
-    <p>We do not collect personal information from visitors or users unless they voluntarily provide it (for example, via support email or app feedback forms).</p>
-    <p>We do not share any personal information with third parties.</p>
-    <p>For support or privacy questions, please contact: <a href="mailto:support@gavz.app">support@gavz.app</a></p>
-  </section>
-</main>
-
-<footer>
-  &copy; 2025 gavz
-</footer>
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="gavz apps home"><span class="brand-mark" aria-hidden="true">g</span>gavz</a>
+      <nav aria-label="Main navigation"><a href="/#apps">Apps</a><a href="/#support">Support</a><a href="/privacy/">Privacy</a></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="welcome-title">
+      <p class="eyebrow">Independent software for macOS</p>
+      <h1 id="welcome-title">Make more of <span class="accent">your Mac.</span></h1>
+      <p class="intro">Useful apps, made with care. Inspect every pixel, transform your audio, and make everyday work a little easier.</p>
+    </section>
+    <section id="apps" aria-labelledby="apps-title">
+      <div class="section-heading"><h2 id="apps-title">Meet the apps</h2><p>Native to the Mac. Focused on the job.</p></div>
+      <div class="apps-grid">
+        <article class="app-card orbit">
+          <div class="app-card-top"><img class="app-icon" src="/assets/orbit.png" width="112" height="112" alt="Orbit app icon"><span class="category">Design &amp; development</span></div>
+          <h2>Orbit: Pixel Inspector</h2>
+          <p class="description">A closer look at every pixel. A live loupe, colour picker and ruler that follow your pointer.</p>
+          <ul class="feature-list"><li>See the details on your Retina display</li><li>Inspect exact hex and RGB colours</li><li>Measure pixels without taking screenshots</li></ul>
+          <div class="card-actions"><a class="button" href="https://apps.apple.com/app/id6815728932">View on the Mac App Store</a><a class="text-link" href="/orbit/">Explore Orbit →</a></div>
+          <p class="availability">For macOS · Works locally on your Mac</p>
+        </article>
+        <article class="app-card audio">
+          <div class="app-card-top"><img class="app-icon" src="/assets/blackbox-audio.png" width="112" height="112" alt="BlackBox: Audio Edition app icon"><span class="category">Audio</span></div>
+          <h2>BlackBox: Audio Edition</h2>
+          <p class="description">Transform your files. Hear the difference. Batch audio tools with previews, visual analysis and reusable profiles.</p>
+          <ul class="feature-list"><li>Convert formats and polish your audio</li><li>Compare the original with a processed preview</li><li>Save new files and keep your originals</li></ul>
+          <div class="card-actions"><a class="button" href="/blackbox-audio/">Explore BlackBox</a><a class="text-link" href="/blackbox-audio/support/">Support →</a></div>
+          <p class="availability">Coming to the Mac App Store · US$4.99 at launch</p>
+        </article>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="more-apps-title">
+      <div class="section-heading"><h2 id="more-apps-title">More from gavz</h2><p>A few familiar tools for everyday jobs.</p></div>
+      <div class="legacy-grid">
+        <a class="legacy-app" href="https://apps.apple.com/app/id6451209145"><img class="legacy-icon" src="/assets/photomatik.png" width="56" height="56" alt="" decoding="async"><span class="legacy-text"><strong>Photomatik Pro ↗</strong><span>Photo tools for Mac</span></span></a>
+        <a class="legacy-app" href="https://apps.apple.com/app/id451406712"><img class="legacy-icon" src="/assets/photobatcher.png" width="56" height="56" alt="" decoding="async"><span class="legacy-text"><strong>PhotoBatcher Pro ↗</strong><span>Batch photo tools for Mac</span></span></a>
+        <a class="legacy-app" href="https://apps.apple.com/app/id473527788"><img class="legacy-icon" src="/assets/file-rename.png" width="56" height="56" alt="" decoding="async"><span class="legacy-text"><strong>File Rename Pro ↗</strong><span>Batch file renaming for Mac</span></span></a>
+        <a class="legacy-app" href="https://apps.apple.com/app/id483124549"><img class="legacy-icon" src="/assets/let-it-snow.png" width="56" height="56" alt="" decoding="async"><span class="legacy-text"><strong>Let It Snow ↗</strong><span>A little snow for your Mac</span></span></a>
+        <a class="legacy-app" href="https://apps.apple.com/app/id1488201769"><img class="legacy-icon" src="/assets/mcdroid.png" width="56" height="56" alt="" decoding="async"><span class="legacy-text"><strong>McDroid for Mac ↗</strong><span>The macOS client</span></span></a>
+        <a class="legacy-app" href="https://play.google.com/store/apps/details?id=app.ilia.mcdroid.pro"><img class="legacy-icon" src="/assets/mcdroid.png" width="56" height="56" alt="" decoding="async"><span class="legacy-text"><strong>McDroid for Android ↗</strong><span>Available on Google Play</span></span></a>
+      </div>
+    </section>
+    <section id="support" class="support-strip" aria-labelledby="support-title">
+      <div><h2 id="support-title">A question? Get in touch.</h2><p>I’m Gavin, the developer behind gavz. For help with an app, email me with the app name and a short description of what’s happening.</p></div>
+      <a class="button secondary" href="mailto:support@gavz.app">Email support</a>
+    </section>
+    <section id="privacy" class="support-strip" aria-labelledby="privacy-title"><div><h2 id="privacy-title">Your work stays yours.</h2><p>Orbit and BlackBox process your screen pixels and audio locally. No accounts, ads or tracking in either app.</p></div><a class="text-link" href="/privacy/">Read the privacy policies →</a></section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><span>© 2026 Gavin Matthews · Independent Mac apps.</span><div class="footer-links"><a href="mailto:support@gavz.app">Contact</a><a href="/privacy/">Privacy</a></div></div>
+  </footer>
 </body>
 </html>

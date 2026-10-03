@@ -1,0 +1,32 @@
+{
+  "photomatik": {
+    "name": "Photomatik Pro",
+    "file": "photomatik.png",
+    "url": "https://apps.apple.com/gb/app/photomatik-pro/id6451209145?mt=12&uo=4",
+    "artworkSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/c1/59/ddc159e3-049c-1698-0df1-a67340949f96/ApplicationIconPhotomatik-0-0-85-220-0-0-6-0-2x.png/512x512bb.png"
+  },
+  "photobatcher": {
+    "name": "PhotoBatcher Pro",
+    "file": "photobatcher.png",
+    "url": "https://apps.apple.com/gb/app/photobatcher-pro/id451406712?mt=12&uo=4",
+    "artworkSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/1b/64/d21b64c5-b98d-b13b-5bf3-c4e367b016d1/ApplicationIcon-0-0-85-220-0-0-6-0-2x.png/512x512bb.png"
+  },
+  "file-rename": {
+    "name": "File Rename Pro",
+    "file": "file-rename.png",
+    "url": "https://apps.apple.com/gb/app/file-rename-pro/id473527788?mt=12&uo=4",
+    "artworkSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/04/e6/0104e6e5-8a2d-0a6c-1ae3-a210d2a3a213/ApplicationIcon-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png"
+  },
+  "let-it-snow": {
+    "name": "Let It Snow",
+    "file": "let-it-snow.png",
+    "url": "https://apps.apple.com/gb/app/let-it-snow/id483124549?mt=12&uo=4",
+    "artworkSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/21/34/e7213443-eb83-b712-2c2a-403857c11b4a/ApplicationIcon-0-0-85-220-0-6-0-2x.png/512x512bb.png"
+  },
+  "mcdroid": {
+    "name": "McDroid",
+    "file": "mcdroid.png",
+    "url": "https://apps.apple.com/gb/app/mcdroid/id1488201769?mt=12&uo=4",
+    "artworkSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/07/ac/4307ac4d-0dbd-ed5a-07ba-109a03f1c55f/ApplicationIcon-0-0-85-220-0-6-0-2x.png/512x512bb.png"
+  }
+}
