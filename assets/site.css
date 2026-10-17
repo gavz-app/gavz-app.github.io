@@ -123,3 +123,6 @@ code { font-size:.9em; overflow-wrap:anywhere; }
  .app-card-top { gap:12px; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+
+.help-toc { flex-wrap:wrap; gap:8px 20px; margin-bottom:28px; }
+.help-toc a { white-space:nowrap; }

@@ -12,7 +12,7 @@ Open http://localhost:8080/. Directory URLs resolve to `index.html`, including:
 
 - `/orbit/`, `/orbit/support/`, and the existing `/orbit/privacy.html`.
 - `/blackbox-audio/`, `/blackbox-audio/support/`, `/blackbox-audio/privacy/`.
-- `/fidget-desktops/snowfall/`, `/fidget-desktops/snowfall/support/`, `/fidget-desktops/snowfall/privacy/`.
+- `/fidget-desktops/snowfall/`, `/fidget-desktops/snowfall/help/`, `/fidget-desktops/snowfall/support/`, `/fidget-desktops/snowfall/privacy/`.
 - `/privacy/` for the website and app privacy overview.
 
 `assets/site.css` controls spacing, typography, light/dark appearance and mobile layouts. Icons are copies of the apps’ existing artwork. Their source repositories remain unchanged.
@@ -32,3 +32,9 @@ Snowfall is marked coming soon, at US$2.99 for a one-time purchase with no IAP o
 The product, support and privacy URLs used in App Store Connect are under `/fidget-desktops/snowfall`. The pages document main-display support, snowball gestures, reset, local screen processing and permission denial/revocation. Reconfirm privacy/feature statements against the final shipping build before release.
 
 Gavin will review, commit and push these changes. Allow approximately ten minutes for GitHub Pages deployment, then verify all three public URLs, HTTPS and content. Local preview alone does not confirm publication.
+
+### Snowfall Help
+
+The app’s Help menu opens `https://gavz.app/fidget-desktops/snowfall/help/`. This guide covers settings, brushing, snowballs/snowmen, robin behaviour, permissions, reset and troubleshooting. Linked from the product and support pages. Gavin will commit/push the new Help page and related updates, then its live URL needs verification.
+
+- [ ] After final screenshots and videos are approved, add relevant images and short gesture demonstrations to Help and the product page, using the actual release behaviour. Preserve the readable text guide alongside media.
