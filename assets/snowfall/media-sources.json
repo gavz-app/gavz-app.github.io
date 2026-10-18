@@ -1,0 +1,49 @@
+{
+  "release": "2026.1",
+  "approvedOn": "2026-10-18",
+  "sourceRepository": "gavz-app/living-desktops",
+  "screenshotSource": "releases/2026.1/Screenshots/Selected/01-winter-desktop.png",
+  "videoSource": "releases/2026.1/Video/Snowfall-App-Store-Preview-v2.mp4",
+  "posterSeconds": 16,
+  "videoExport": {
+    "codec": "h264",
+    "preset": "slow",
+    "crf": 24,
+    "fastStart": true,
+    "audio": "removed silent track"
+  },
+  "files": [
+    {
+      "file": "snowfall-desktop-1920.webp",
+      "bytes": 234512,
+      "sha256": "a558621a63a9a031543c343afd8f095562b9268500dd2dfeef142586005db964",
+      "dimensions": [
+        1920,
+        1200
+      ]
+    },
+    {
+      "file": "snowfall-desktop-960.webp",
+      "bytes": 99618,
+      "sha256": "0e4265f2f42312b2b8fcefb9bd7bd4118ef978fc1c934dcf88880713ec90fd2b",
+      "dimensions": [
+        960,
+        600
+      ]
+    },
+    {
+      "file": "snowfall-preview-poster.webp",
+      "bytes": 159528,
+      "sha256": "2a99cbb56d1182e7b41847b44206772bdc4232ab42228f3a483b288e239a7556",
+      "dimensions": [
+        1440,
+        810
+      ]
+    },
+    {
+      "file": "snowfall-preview.mp4",
+      "bytes": 9791741,
+      "sha256": "70f588e98c20c664fe352f5ca46ffa0a7fcaa181017d75465f6d777c995c6f33"
+    }
+  ]
+}

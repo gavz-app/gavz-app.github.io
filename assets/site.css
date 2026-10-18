@@ -126,3 +126,13 @@ code { font-size:.9em; overflow-wrap:anywhere; }
 
 .help-toc { flex-wrap:wrap; gap:8px 20px; margin-bottom:28px; }
 .help-toc a { white-space:nowrap; }
+
+/* Snowfall product and Help media. */
+.snowfall-media { margin:0 0 60px; }
+.snowfall-media figure { margin:0; }
+.snowfall-media img,.snowfall-media video { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:20px; background:var(--surface); }
+.snowfall-media figcaption { margin-top:12px; color:var(--muted); font-size:14px; }
+.snowfall-media h2 { font-size:clamp(26px,3vw,36px); margin-bottom:12px; }
+.snowfall-media > p { color:var(--muted); margin-bottom:24px; }
+.prose .snowfall-media { margin:24px 0; }
+@media (max-width:760px) { .snowfall-media { margin-bottom:44px; } .snowfall-media img,.snowfall-media video { border-radius:14px; } }
