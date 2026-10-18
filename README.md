@@ -33,8 +33,10 @@ The product, support and privacy URLs used in App Store Connect are under `/fidg
 
 Gavin will review, commit and push these changes. Allow approximately ten minutes for GitHub Pages deployment, then verify all three public URLs, HTTPS and content. Local preview alone does not confirm publication.
 
+The 18 October 2026 product-copy revision leads with interactive snow, buildable snowmen and the robin’s personality. Settings remain documented in Help and support; the product page keeps customisation secondary. The experience-focused revision is prepared locally and needs a commit/push followed by live verification.
+
 ### Snowfall Help
 
-The app’s Help menu opens `https://gavz.app/fidget-desktops/snowfall/help/`. This guide covers settings, brushing, snowballs/snowmen, robin behaviour, permissions, reset and troubleshooting. Linked from the product and support pages. The Help page and product/support links were verified live over HTTPS on 17 October 2026. The subsequent approved-icon addition is prepared locally for Gavin to commit/push. On 18 October 2026, product, Help and support copy was refreshed for Robin visits, Clear spells and Animation smoothness. Help/support also reflect Settings access via the Dock and Command-Tab while open, and current mouse gestures. These copy changes still need Gavin to commit/push, followed by live verification.
+The app’s Help menu opens `https://gavz.app/fidget-desktops/snowfall/help/`. This guide covers settings, brushing, snowballs/snowmen, robin behaviour, permissions, reset and troubleshooting. Linked from the product and support pages. The Help page and product/support links were verified live over HTTPS on 17 October 2026. The approved-icon addition and the 18 October 2026 settings-copy refresh were committed in `a2d52b3`. Help/support cover Robin visits, Clear spells, Animation smoothness, Settings access via the Dock and Command-Tab while open, and current mouse gestures. The later experience-focused product revision above still needs a commit/push and live verification.
 
 - [ ] After final screenshots and videos are approved, add relevant images and short gesture demonstrations to Help and the product page, using the actual release behaviour. Preserve the readable text guide alongside media.
