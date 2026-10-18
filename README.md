@@ -27,7 +27,7 @@ Copyright footers currently use 2026. Support email remains `support@gavz.app`.
 
 ## Snowfall release preparation
 
-Snowfall is marked coming soon, at US$2.99 for a one-time purchase with no IAP or subscription. App Store app ID: `6824011223`; add the public store link only after it is released. The agreed icon and five screenshots/one preview will be added after visual approval and release testing; the current pages intentionally have no placeholder media.
+Snowfall is marked coming soon, at US$2.99 for a one-time purchase with no IAP or subscription. App Store app ID: `6824011223`; add the public store link only after it is released. The approved larger-snowflake icon is included on the product page as `assets/snowfall.png`, exported from Icon Composer. Five screenshots/one preview will be added after release testing and media approval; the current pages have no placeholder screenshots/videos.
 
 The product, support and privacy URLs used in App Store Connect are under `/fidget-desktops/snowfall`. The pages document main-display support, snowball gestures, reset, local screen processing and permission denial/revocation. Reconfirm privacy/feature statements against the final shipping build before release.
 
@@ -35,6 +35,6 @@ Gavin will review, commit and push these changes. Allow approximately ten minute
 
 ### Snowfall Help
 
-The app’s Help menu opens `https://gavz.app/fidget-desktops/snowfall/help/`. This guide covers settings, brushing, snowballs/snowmen, robin behaviour, permissions, reset and troubleshooting. Linked from the product and support pages. Gavin will commit/push the new Help page and related updates, then its live URL needs verification.
+The app’s Help menu opens `https://gavz.app/fidget-desktops/snowfall/help/`. This guide covers settings, brushing, snowballs/snowmen, robin behaviour, permissions, reset and troubleshooting. Linked from the product and support pages. The Help page and product/support links were verified live over HTTPS on 17 October 2026. The subsequent approved-icon addition is prepared locally for Gavin to commit/push. On 18 October 2026, product, Help and support copy was refreshed for Robin visits, Clear spells and Animation smoothness. Help/support also reflect Settings access via the Dock and Command-Tab while open, and current mouse gestures. These copy changes still need Gavin to commit/push, followed by live verification.
 
 - [ ] After final screenshots and videos are approved, add relevant images and short gesture demonstrations to Help and the product page, using the actual release behaviour. Preserve the readable text guide alongside media.

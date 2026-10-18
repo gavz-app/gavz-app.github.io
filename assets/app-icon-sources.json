@@ -28,5 +28,12 @@
     "file": "mcdroid.png",
     "url": "https://apps.apple.com/gb/app/mcdroid/id1488201769?mt=12&uo=4",
     "artworkSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/07/ac/4307ac4d-0dbd-ed5a-07ba-109a03f1c55f/ApplicationIcon-0-0-85-220-0-6-0-2x.png/512x512bb.png"
+  },
+  "snowfall": {
+    "name": "Fidget Desktops: Snowfall",
+    "file": "snowfall.png",
+    "url": "https://gavz.app/fidget-desktops/snowfall/",
+    "artworkSource": "../living-desktops/Apps/Snowfall/AppIcon/Snowfall.icon",
+    "artworkNotes": "Approved larger-snowflake artwork, native Icon Composer Default export, design generation 27, 512px. Approved 17 October 2026."
   }
 }
